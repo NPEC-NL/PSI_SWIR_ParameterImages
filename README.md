@@ -34,11 +34,11 @@ Band @ 1000 nm – Extracted calibrated reflectance slice
 
 All outputs are saved as .tiff files for further analysis or visualization.
 
-## 🛠 How to Use This Notebook
+## 🛠 How to Use This Tutorial Notebook
 1. Open the notebook in Google Colab
 Click below to open directly in Google Colab:
 
-[Open PSI_Hyperspectral.ipynb in Colab](https://github.com/NPEC-NL/PSI_SWIR_ParameterImages/blob/main/PSI_Hyperspectral.ipynb)
+[Open tutorial in Colab](https://github.com/NPEC-NL/PSI_SWIR_ParameterImages/blob/main/Tutorial_%E2%80%93_Single_Image_Example.ipynb)
 
 2. Make a copy to your own Google Drive
 Go to:
