@@ -1,6 +1,26 @@
 # PSI Hyperspectral Image Processing
 This repository contains a Google Colab notebook for preprocessing and extracting key vegetation-related indices from hyperspectral images captured with PSI SWIR (Short-Wave Infrared) cameras.
 
+## 📂 Structure of the Repository
+The repository is organized into two separate Google Colab notebooks, each designed for a different use case:
+
+**1. Tutorial – Single Image Example**
+Notebook: PSI_Hyperspectral_Example.ipynb
+This is a step-by-step tutorial for working with a single hyperspectral image. It helps users understand how the calibration and index computation works.
+📌 Recommended for:
+First-time users
+Learning and debugging
+Testing with a single PSI measurement
+
+**2. Batch Processing – Multiple Images**
+Notebook: PSI_Hyperspectral.ipynb
+This notebook is designed to automatically process a folder containing multiple PSI hyperspectral measurements. It reads corresponding raw, white, and dark calibration files and outputs vegetation index maps (as .tiff images).
+📌 Recommended for:
+Processing large datasets
+Running full experiments
+Generating index outputs for multiple field acquisitions
+
+
 ## 🌱 What This Notebook Does
 The notebook processes hyperspectral .bil data files, applying radiometric calibration using associated dark and white reference images. It then calculates several plant-related indices:
 
